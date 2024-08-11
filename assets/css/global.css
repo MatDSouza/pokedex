@@ -49,8 +49,6 @@ body {
 .pokemon {
     margin: .5rem;
     padding: 1rem;
-    background-color: #14d06f;
-    color: #ffffff;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -68,6 +66,7 @@ body {
     color: #fff;
     margin: .25rem 0;
     margin-bottom: .25rem;
+    text-transform: capitalize;
 }
 
 .pokemon .details  {
@@ -78,12 +77,12 @@ body {
 }
 
 .pokemon .details .types .type {
-    background-color: #61e1ca;
     color: #fff;
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 1rem ;
+    filter: brightness(1.1);
 }
 
 .pokemon .types {
