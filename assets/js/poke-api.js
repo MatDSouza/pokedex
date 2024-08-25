@@ -32,4 +32,3 @@ pokeApi.getPokemons = (offset = 0 , limit = 50) => {
         .then((pokemonDetails) => pokemonDetails)
         
 }
-
